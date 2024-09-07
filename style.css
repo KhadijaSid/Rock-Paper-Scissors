@@ -112,9 +112,9 @@ button{
         font-size: 2rem;
     }
     #msg{
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-top: 2rem;
-        width: 15rem;
+        width: 10rem;
         height: 2rem;
     }
 }
