@@ -56,16 +56,15 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
 }
 
 #msg{
     background-color: #081b31;
     color: white;
     font-size: 2rem;
-    margin-top: 2rem;
-    width: 30rem;
-    height: 3rem;
-    line-height: 1.2;
+    display: inline; 
+    padding: 1rem;
     border-radius: 1rem;
     border: 2px solid black;
 }
@@ -111,11 +110,11 @@ button{
     #userScore , #compScore{
         font-size: 2rem;
     }
+    .msgContainer{
+    margin-top: 3rem;
+}
     #msg{
-        font-size: 1rem;
-        margin-top: 2rem;
-        width: 10rem;
-        height: 2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -138,9 +137,10 @@ button{
     #userScore, #compScore {
         font-size: 3.5rem;
     }
-
+.msgContainer{
+    margin-top: 4rem;
+}
     #msg {
         font-size: 1.8rem;
-        width: 28rem;
     }
 }
